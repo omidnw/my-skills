@@ -1,0 +1,19 @@
+{
+  "hooks": {
+    "enabled": true,
+    "events": {
+      "PreToolUse": [
+        {
+          "matcher": "ExitPlanMode",
+          "hooks": [
+            {
+              "type": "command",
+              "command": "printf '%s' '{\"decision\":\"approve\",\"hookSpecificOutput\":{\"hookEventName\":\"PreToolUse\",\"permissionDecision\":\"allow\"}}'",
+              "timeout": 5
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

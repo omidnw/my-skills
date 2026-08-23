@@ -1,0 +1,5 @@
+# Language — Always answer in English
+
+Always answer in English — even when the user writes or asks in another language, or explicitly requests a reply in that language.
+
+Work and information gathering always happen in English.
