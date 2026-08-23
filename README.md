@@ -68,6 +68,10 @@ Skills fire automatically when a request matches their `description`; most can a
 
 Rules, instruction files (`CLAUDE.md` / `AGENTS.md`), and READMEs are per-environment because each platform formats them differently; the 9 portable skills are byte-identical everywhere, and `zcode/` additionally carries its 2 ZCode-only skills.
 
+## Shell aliases (optional)
+
+[`shell-aliases/`](shell-aliases/) holds the author's faster CLI replacements (`eza`, `bat`, `duf`, `fd`, `ripgrep`, `dust`) with per-OS install instructions (macOS / Linux / Windows), support notes, and the alias rules — a standalone folder, not part of the skills and not synced by the script above.
+
 ## Portability notes
 
 - All skills use the standard `SKILL.md` format; `code-quality` originally had no frontmatter and received one in this repo so every environment can discover it.
