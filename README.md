@@ -31,6 +31,10 @@ Pick one environment folder, then either:
 
 Skills fire automatically when a request matches their `description`; most can also be invoked manually (`/` in many clients, `@` in ChatGPT, `$`/`/skills` in Codex).
 
+## Not technical? Let your coding agent set it up
+
+No terminal, no worries — open **[`agent-help.md`](agent-help.md)**, pick the app you use (Claude Code, Cursor, Kiro, ZCode, OpenCode, or Codex/ChatGPT), and paste that app's prompt into its chat. The agent fetches this repository and installs everything for you automatically, then walks you through what it did.
+
 ## The skills
 
 | Skill                            | What it does                                                                                                                              | Why it was created                                                                                                                                             |
