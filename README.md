@@ -33,7 +33,7 @@ Skills fire automatically when a request matches their `description`; most can a
 
 ## Not technical? Let your coding agent set it up
 
-No terminal, no worries — open **[`agent-help.md`](agent-help.md)**, pick the app you use (Claude Code, Cursor, Kiro, ZCode, OpenCode, or Codex/ChatGPT), and paste that app's prompt into its chat. The agent fetches this repository and installs everything for you automatically, then walks you through what it did.
+[`agent-help.md`](agent-help.md) contains one copy-paste prompt per supported app (Claude Code, Cursor, Kiro, ZCode, OpenCode, Codex/ChatGPT). Paste the prompt for your app into its chat — the agent clones this repository and installs the skills and rules for you.
 
 ## The skills
 
